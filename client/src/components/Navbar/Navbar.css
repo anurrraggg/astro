@@ -214,3 +214,44 @@
     letter-spacing: 1px;
   }
 }
+
+@media (max-width: 640px) {
+  .navbar {
+    padding-top: 10px;
+  }
+
+  .nav-container {
+    width: calc(100% - 12px);
+    justify-content: space-between;
+    gap: 8px;
+    padding: 6px 8px;
+    border-radius: 18px;
+  }
+
+  .nav-links {
+    gap: 8px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .nav-links li {
+    font-size: 8px;
+    letter-spacing: 0.8px;
+  }
+
+  .nav-connect-btn {
+    flex-shrink: 0;
+  }
+
+  .nav-connect-btn .btn-icon {
+    width: 22px;
+    height: 22px;
+    font-size: 11px;
+  }
+
+  .nav-connect-btn .btn-text {
+    padding: 0 6px;
+    font-size: 8px;
+    letter-spacing: 0.8px;
+  }
+}

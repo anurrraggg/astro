@@ -239,3 +239,74 @@
     padding-right: 6px;
   }
 }
+
+@media (max-width: 640px) {
+  .hero-heading-wrap {
+    bottom: 150px;
+    padding: 0 10px;
+  }
+
+  .hero-title-cluster {
+    width: 100%;
+  }
+
+  .hero-heading {
+    padding-right: 0;
+    font-size: clamp(30px, 9vw, 48px);
+    line-height: 1;
+    letter-spacing: -0.6px;
+    white-space: normal;
+    text-align: center;
+  }
+
+  .hero-heading-left {
+    left: 50%;
+    top: -18px;
+    transform: translateX(-50%);
+  }
+
+  .hero-dots {
+    font-size: 7px;
+    letter-spacing: 1.8px;
+  }
+
+  .hero-heading-right {
+    right: 50%;
+    top: -34px;
+    transform: translateX(50%);
+  }
+
+  .hero-est {
+    gap: 2px;
+  }
+
+  .hero-est-label,
+  .hero-barcode,
+  .hero-globe {
+    transform: scale(0.16);
+  }
+
+  .hero-cta {
+    flex-direction: column;
+    width: min(100% - 24px, 320px);
+    gap: 10px;
+    bottom: 18px;
+  }
+
+  .connect-btn {
+    width: 100%;
+    justify-content: center;
+    font-size: 10px;
+    padding: 10px 12px;
+  }
+
+  .connect-btn .star {
+    width: 18px;
+    height: 18px;
+    padding-right: 5px;
+  }
+
+  .connect-btn .text {
+    letter-spacing: 0.8px;
+  }
+}
